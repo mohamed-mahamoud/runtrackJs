@@ -1,4 +1,4 @@
-function compteur(){
+function addOne(){
     let count=document.getElementById("compteur");
     let newCount= parseInt(count.textContent) + 1;
     let newElement=document.createElement("p");
@@ -8,4 +8,4 @@ function compteur(){
 
 }
 
-document.getElementById("button").addEventListener("click",compteur);
+document.getElementById("button").addEventListener("click",addOne);
