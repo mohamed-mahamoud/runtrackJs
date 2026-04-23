@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form id="trie">
+        <label for="id">ID</label>
+        <input type="text" id="id" name="id">
+        <label for="name">Nom</label>
+        <input type="text" id="name" name="name">
+        <select name="type" id="type">
+            <option value="">-- Tous --</option>
+            <option value="Fire">Feu</option>
+            <option value="Water">Eau</option>
+            <option value="Grass">Plante</option>
+            <option value="Electric">Électrique</option>
+            <option value="Psychic">Psy</option>
+            <option value="Ice">Glace</option>
+            <option value="Bug">Insecte</option>
+            <option value="Rock">Roche</option>
+            <option value="Ghost">Spectre</option>
+            <option value="Flying">Vol</option>
+            <option value="Poison">Poison</option>
+            <option value="Ground">Sol</option>
+            <option value="Normal">Normal</option>
+            <option value="Dragon">Dragon</option>
+            <option value="Dark">Ténèbres</option>
+            <option value="Steel">Acier</option>
+            <option value="Fairy">Fée</option>
+            <option value="Fighting">Combat</option>
+        </select>
+        <button type="submit">Trier</button>
+    </form>
+
+    <div id="resultat"></div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./script.js" defer></script>
+</body>
+</html>
